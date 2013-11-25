@@ -16,4 +16,4 @@ To-Do
 -----
 
 * implement the function which can get NAID from command-line argument
-* fail to get the year of publishing when the date is invalid (e. g. 2013-05-00)
+* fail to get the year of publishing when the date is invalid (e.g. 2013-05-00)
