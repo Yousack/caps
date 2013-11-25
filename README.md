@@ -11,3 +11,8 @@ How to execute
 	$ ruby cinii_json.rb [NAID]
 
 But this form is not implemented yet, so you need to execute this program without command-line argument. In this program, the variable "argv" is not set. You should change the NAID in the source code directly. This form will be implemented soon.
+
+To-Do
+-----
+
+* fail to get the year of publishing when the date is invalid (e. g. 2013-05-00)
