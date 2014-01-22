@@ -3,7 +3,12 @@ require 'open-uri'
 require 'json'
 require 'date'
 
-naid = 110009580860
+if ARGV.length != 1
+  puts "Use: ruby cinii_sist.rb NAID"
+  exit(1)
+end
+
+naid = ARGV[0]
 html = open("http://ci.nii.ac.jp/naid/#{naid}.json").read
 json = JSON.parser.new(html)
 hash = json.parse["@graph"][0]
